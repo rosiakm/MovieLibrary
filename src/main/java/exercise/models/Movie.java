@@ -82,7 +82,7 @@ public class Movie {
         System.out.println(deserializeJson().get(random.nextInt(deserializeJson().size())).toString());
     }
 
-    public String getFilmographyOfSpecificActor() throws IOException {
+    public void getFilmographyOfSpecificActor() throws IOException {
         List<String> filmography = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter first name of an actor/actress");
@@ -98,7 +98,7 @@ public class Movie {
             }
         }
         String actorsFilmography = filmography.toString();
-        return actorsFilmography.substring(1, actorsFilmography.length() - 1);
+        System.out.println(actorsFilmography.substring(1, actorsFilmography.length() - 1));
     }
 
     @Override

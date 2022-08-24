@@ -17,7 +17,7 @@ public class Main {
             switch (option){
                 case 1 -> movie.getMoviesFromDateRange();
                 case 2 -> movie.getAllInformationAboutRandomMovie();
-                case 3 -> System.out.println(movie.getFilmographyOfSpecificActor());
+                case 3 -> movie.getFilmographyOfSpecificActor();
                 case 4 -> System.exit(0);
                 default -> System.out.println("Please choose one of the options 1-4");
             }

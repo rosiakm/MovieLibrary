@@ -2,7 +2,6 @@ package exercise.runner;
 
 import exercise.helpers.JsonHandler;
 import exercise.models.Actor;
-import exercise.models.Movie;
 import exercise.models.MovieLibrary;
 
 import java.io.IOException;

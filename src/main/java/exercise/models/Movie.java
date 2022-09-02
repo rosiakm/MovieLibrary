@@ -1,12 +1,19 @@
 package exercise.models;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.*;
 
 public class Movie {
+    @JsonProperty("title")
     private String title;
+    @JsonProperty("director")
     private Director director;
+    @JsonProperty("genre")
     private String genre;
+    @JsonProperty("date")
     private int date;
+    @JsonProperty("actors")
     private List<Actor> actors;
 
     public Movie() {

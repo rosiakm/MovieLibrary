@@ -1,12 +1,18 @@
 package exercise.models;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 public class MovieLibrary {
+    @JsonProperty("movies")
     private List<Movie> movies;
 
+    public MovieLibrary(){
+
+    }
     public void getAllInformationAboutRandomMovie(){
         Random random = new Random();
         System.out.println(movies.get(random.nextInt(movies.size())).toString());

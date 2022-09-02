@@ -1,117 +1,119 @@
-[
-  {
-    "title": "The Shawshank Redemption",
-    "director": {
-      "firstName": "Frank",
-      "lastName": "Darabont"
+{
+  "movies": [
+    {
+      "title": "The Shawshank Redemption",
+      "director": {
+        "firstName": "Frank",
+        "lastName": "Darabont"
+      },
+      "genre": "DRAMA",
+      "date": "1994",
+      "actors": [
+        {
+          "firstName": "Tim",
+          "lastName": "Robbins"
+        },
+        {
+          "firstName": "Morgan",
+          "lastName": "Freeman"
+        },
+        {
+          "firstName": "Bob",
+          "lastName": "Gunton"
+        }
+      ]
     },
-    "genre": "DRAMA",
-    "date": "1994",
-    "actors": [
-      {
-        "firstName": "Tim",
-        "lastName": "Robbins"
+    {
+      "title": "Seven",
+      "director": {
+        "firstName": "David",
+        "lastName": "Fincher"
       },
-      {
-        "firstName": "Morgan",
-        "lastName": "Freeman"
-      },
-      {
-        "firstName": "Bob",
-        "lastName": "Gunton"
-      }
-    ]
-  },
-  {
-    "title": "Seven",
-    "director": {
-      "firstName": "David",
-      "lastName": "Fincher"
+      "genre": "THRILLER",
+      "date": "1995",
+      "actors": [
+        {
+          "firstName": "Morgan",
+          "lastName": "Freeman"
+        },
+        {
+          "firstName": "Brad",
+          "lastName": "Pitt"
+        },
+        {
+          "firstName": "Gwyneth",
+          "lastName": "Paltrow"
+        }
+      ]
     },
-    "genre": "THRILLER",
-    "date": "1995",
-    "actors": [
-      {
-        "firstName": "Morgan",
-        "lastName": "Freeman"
+    {
+      "title": "Fight Club",
+      "director": {
+        "firstName": "David",
+        "lastName": "Fincher"
       },
-      {
-        "firstName": "Brad",
-        "lastName": "Pitt"
-      },
-      {
-        "firstName": "Gwyneth",
-        "lastName": "Paltrow"
-      }
-    ]
-  },
-  {
-    "title": "Fight Club",
-    "director": {
-      "firstName": "David",
-      "lastName": "Fincher"
+      "genre": "THRILLER",
+      "date": "1999",
+      "actors": [
+        {
+          "firstName": "Edward",
+          "lastName": "Norton"
+        },
+        {
+          "firstName": "Brad",
+          "lastName": "Pitt"
+        },
+        {
+          "firstName": "Helena",
+          "lastName": "Bonham Carter"
+        }
+      ]
     },
-    "genre": "THRILLER",
-    "date": "1999",
-    "actors": [
-      {
-        "firstName": "Edward",
-        "lastName": "Norton"
+    {
+      "title": "Inglourious Basterds",
+      "director": {
+        "firstName": "Quentin",
+        "lastName": "Tarantino"
       },
-      {
-        "firstName": "Brad",
-        "lastName": "Pitt"
-      },
-      {
-        "firstName": "Helena",
-        "lastName": "Bonham Carter"
-      }
-    ]
-  },
-  {
-    "title": "Inglourious Basterds",
-    "director": {
-      "firstName": "Quentin",
-      "lastName": "Tarantino"
+      "genre": "WAR",
+      "date": "2009",
+      "actors": [
+        {
+          "firstName": "Brad",
+          "lastName": "Pitt"
+        },
+        {
+          "firstName": "Melanie",
+          "lastName": "Laurent"
+        },
+        {
+          "firstName": "Christoph",
+          "lastName": "Walz"
+        }
+      ]
     },
-    "genre": "WAR",
-    "date": "2009",
-    "actors": [
-      {
-        "firstName": "Brad",
-        "lastName": "Pitt"
+    {
+      "title": "Django",
+      "director": {
+        "firstName": "Quentin",
+        "lastName": "Tarantino"
       },
-      {
-        "firstName": "Melanie",
-        "lastName": "Laurent"
-      },
-      {
-        "firstName": "Christoph",
-        "lastName": "Walz"
-      }
-    ]
-  },
-  {
-    "title": "Django",
-    "director": {
-      "firstName": "Quentin",
-      "lastName": "Tarantino"
-    },
-    "genre": "WESTERN",
-    "date": "2012",
-    "actors": [
-      {
-        "firstName": "Jamie",
-        "lastName": "Foxx"
-      },
-      {
-        "firstName": "Christoph",
-        "lastName": "Walz"
-      },
-      {
-        "firstName": "Leonardo",
-        "lastName": "DiCaprio"
-      }
-    ]
-  }
-]
+      "genre": "WESTERN",
+      "date": "2012",
+      "actors": [
+        {
+          "firstName": "Jamie",
+          "lastName": "Foxx"
+        },
+        {
+          "firstName": "Christoph",
+          "lastName": "Walz"
+        },
+        {
+          "firstName": "Leonardo",
+          "lastName": "DiCaprio"
+        }
+      ]
+    }
+  ]
+}

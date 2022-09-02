@@ -15,6 +15,7 @@ public class InputHandler {
     }
 
     public static String getFirstName(){
+        scanner.nextLine();
         System.out.println("Provide the actor/actress first name");
         return scanner.nextLine();
     }

@@ -1,5 +1,4 @@
 package exercise.models;
-
 public class Director extends Person {
     public Director(){
         super();

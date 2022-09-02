@@ -1,7 +1,4 @@
 package exercise.models;
-
-import exercise.helpers.InputHandler;
-
 public class Actor extends Person {
     public Actor(){
         super();

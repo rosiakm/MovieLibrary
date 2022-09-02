@@ -74,7 +74,7 @@ public class Movie {
     @Override
     public String toString() {
         return "title: " + getTitle() + "\r\n" +
-                "director: " + director.getFirstName() + " " + director.getLastName() + "\r\n" +
+                "director: " + director.toString() + "\r\n" +
                 "genre: " + getGenre() + "\r\n" +
                 "date: " + getDate() + "\r\n" +
                 "actors: " + convertActorsListToString(actors) + "\r\n";
